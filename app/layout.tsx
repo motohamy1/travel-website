@@ -8,7 +8,7 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Converso",
+  title: "Magic Travel",
   description: "Real-time AI Teaching Platform",
 };
 

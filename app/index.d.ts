@@ -81,3 +81,25 @@ interface CompanionComponentProps {
   voice: string;
   style: string;
 }
+
+type TripFormData = {
+  groupType: string;
+  travelStyle: string;
+  interest: string;
+  budget: string;
+};
+
+type Trip = {
+  id: number;
+  name: string;
+  imageUrls: string[];
+  itinerary: { location: string }[];
+  tags: string[];
+  travelStyle: string;
+  estimatedPrice: string;
+};
+
+type TrendResult = {
+  trend: "increment" | "decrement" | "no change";
+  percentage: number;
+};
